@@ -1,6 +1,6 @@
-# concept_drift_cfes
+# Counterfactual Explanations Under Concept Drift
 
-Code for the paper *Counterfactual Explanations Under Concept Drift* (IJCAI-ECAI 2026).
+Code for the paper *Counterfactual Explanations Under Concept Drift* (submitted to IJCAI-ECAI 2026).
 
 A lightweight, model-agnostic maintenance scheme that repairs existing counterfactual explanations (CFEs) as an online classifier is repeatedly updated under concept drift, using local black-box sampling to preserve validity and plausibility.
 
