@@ -1,0 +1,20 @@
+[project]
+name = "concept-drift-cfes"
+version = "0.1.0"
+description = "Counterfactual explanation maintenance under concept drift"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=3.0.3",
+    "pytest>=9.0.3",
+    "river>=0.19.0",
+    "scikit-learn>=1.8.0",
+    "tqdm>=4.67.3",
+]
+
+[project.scripts]
+concept-drift-cfes = "concept_drift_cfes:main"
+
+[build-system]
+requires = ["uv_build>=0.9.3,<0.10.0"]
+build-backend = "uv_build"
